@@ -1,5 +1,9 @@
 module Components.Hecker (..) where
 
 import Html exposing (..)
+import Html.Attributes exposing (..)
 
-hecker = text "heckya"
+hecker : Html
+hecker = 
+  div [ class "hecker" ] [ text "what a hecker." ]
+
